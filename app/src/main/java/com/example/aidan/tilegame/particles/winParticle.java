@@ -3,7 +3,6 @@ package com.example.aidan.tilegame.particles;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.util.Log;
 
 import com.example.aidan.tilegame.Panel;
 import com.example.aidan.tilegame.ProgressSaver;

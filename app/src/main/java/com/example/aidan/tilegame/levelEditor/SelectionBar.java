@@ -23,9 +23,6 @@ import com.example.aidan.tilegame.levelEditor.dumbTiles.DumbDoubleCrate;
 import com.example.aidan.tilegame.levelEditor.dumbTiles.DumbEmptyCrate;
 import com.example.aidan.tilegame.levelEditor.dumbTiles.DumbSpike;
 import com.example.aidan.tilegame.levelEditor.dumbTiles.DumbWall;
-import com.example.aidan.tilegame.tiles.Box;
-
-import java.util.logging.Level;
 
 public class SelectionBar {
     private String selectedItem = "null";

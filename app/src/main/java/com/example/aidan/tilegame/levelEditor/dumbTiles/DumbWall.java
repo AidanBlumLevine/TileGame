@@ -3,9 +3,9 @@ package com.example.aidan.tilegame.levelEditor.dumbTiles;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import com.example.aidan.tilegame.levelEditor.LevelEditor;
+
 import com.example.aidan.tilegame.Tile;
-import com.example.aidan.tilegame.tiles.Wall;
+import com.example.aidan.tilegame.levelEditor.LevelEditor;
 
 public class DumbWall extends Tile {
     private Bitmap scaledTexture;

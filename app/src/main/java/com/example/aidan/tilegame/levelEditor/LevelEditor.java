@@ -7,14 +7,15 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
 import com.example.aidan.tilegame.LevelGenerator;
 import com.example.aidan.tilegame.ProgressSaver;
 import com.example.aidan.tilegame.Tile;
 import com.example.aidan.tilegame.levelEditor.dumbTiles.DumbDoubleCrate;
+
 import java.util.ArrayList;
 
 public class LevelEditor extends SurfaceView implements Runnable {

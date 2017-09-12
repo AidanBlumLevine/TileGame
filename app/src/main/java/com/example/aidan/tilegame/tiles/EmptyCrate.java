@@ -6,7 +6,6 @@ import android.graphics.Paint;
 
 import com.example.aidan.tilegame.Overlay;
 import com.example.aidan.tilegame.Panel;
-import com.example.aidan.tilegame.ParticleManager;
 import com.example.aidan.tilegame.Tile;
 import com.example.aidan.tilegame.particles.dissolveParticle;
 import com.example.aidan.tilegame.particles.hitParticle;

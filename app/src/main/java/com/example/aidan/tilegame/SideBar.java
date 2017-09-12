@@ -1,6 +1,5 @@
 package com.example.aidan.tilegame;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,14 +10,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
-import android.graphics.Typeface;
-import android.os.Build;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-
-import com.example.aidan.tilegame.levelEditor.LevelEditor;
-import com.example.aidan.tilegame.levelEditor.SelectionBar;
 
 
 public class SideBar {

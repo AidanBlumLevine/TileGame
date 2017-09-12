@@ -2,7 +2,6 @@ package com.example.aidan.tilegame.particles;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.util.Log;
 
 import com.example.aidan.tilegame.ParticleManager;
 
