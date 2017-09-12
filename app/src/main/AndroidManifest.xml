@@ -11,17 +11,19 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".GameScreen"
-            android:screenOrientation="fullSensor"></activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".HomeScreen"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".levelEditor.LevelEditorScreen"></activity>
+        <activity
+            android:name=".levelEditor.LevelEditorScreen"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
