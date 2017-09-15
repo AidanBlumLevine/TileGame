@@ -30,9 +30,10 @@ public class Panel extends SurfaceView implements Runnable{
     private Thread gameThread = null;
     private static Context context;
     private static int height,width;
-    private static int touchX,touchY;
+    
     private static final int fps=30;
     private static long lastTime;
+
     private static int defaultLevel = 1,customLevel = 1,maxLevel=1;
     private static int numberOfTilesInLevel = 1;
     private final static double sizeMultiplier = 0.97;
